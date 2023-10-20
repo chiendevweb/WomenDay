@@ -25,11 +25,11 @@ main {
 
 body {
 	margin: 0;
-	--color-text: #d05400;
+	--color-text: #e41212;
     --color-bg: #0c0c0c;
     --color-link: #6b5537;
 	--color-link-hover: #fff;
-	--color-content-title-sub: #6b5537;
+	--color-content-title-sub: #e69a44;
     color: var(--color-text);
     background-color: var(--color-bg);
     --cursor-stroke: #6b5537;
@@ -45,7 +45,7 @@ body {
     --color-bg: #832f05;
     --color-link: #ffffff;
     --color-link-hover: #000;
-    --color-content-title-sub: #ec9e34;
+    --color-content-title-sub: #b87c29;
     --cursor-stroke: #000000;
     --cursor-fill: none;
     --cursor-stroke-width: 1px;
@@ -205,6 +205,7 @@ a:focus {
 	background-size: cover;
 	background-position: 50% 50%;
 	z-index: 100;
+	border-radius: 20px;
 }
 
 .grid--img .grid__item-img {
@@ -217,7 +218,7 @@ a:focus {
 /* Shorthand grid-area: grid-row-start / grid-column-start / grid-row-end / grid-column-end */
 
 .pos-1 {
-	grid-area: 10 / 1 / 26 / 7;
+	grid-area: 5 / 1 / 26 / 8;
 }
 
 .pos-2 {
@@ -233,15 +234,15 @@ a:focus {
 }
 
 .pos-5 {
-	grid-area: 17 / 32 / 32 / 38;
+	grid-area: 15 / 20 / 36 / 38;
 }
 
 .pos-6 {
-	grid-area: 20 / 46 / 28 / 51;
+	grid-area: 10 / 46 / 28 / 50;
 }
 
 .pos-7 {
-	grid-area: 43 / 1 / 51 / 10;
+	grid-area: 30 / 2 / 50 / 10;
 }
 
 .pos-8 {
@@ -255,6 +256,7 @@ a:focus {
 .pos-10 {
  	grid-area: 37 / 39 / 48 / 47;
 }
+
 
 .content__title {
 	font-family: myFont;
@@ -271,6 +273,9 @@ a:focus {
 	display: block;
 	margin-left: 3vw;
 	line-height: 0.5;
+	text-align: center;
+	padding:30px;
+	text-shadow: 1px 1px 2px rgb(24, 23, 23);
 }
 
 .cursor {
